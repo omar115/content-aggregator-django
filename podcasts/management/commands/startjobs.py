@@ -25,4 +25,3 @@ class Command(BaseCommand):
                     guid = item.guid,
                 )
                 episode.save()
-        print('Hello your custom commands works!')
